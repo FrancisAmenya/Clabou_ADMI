@@ -42,9 +42,17 @@ _underscoring_ is kinda soft
 [home]<https://www.google.com>
 <a href="https://www.google.com" target="https://www.google.com">Hello, world!</a>
 
-var links = document.links;
-for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-   if (links[i].hostname != window.location.hostname) {
-       links[i].target = '_blank';
-   } 
-}
+
+
+![alt text](IMG_20180101_134539.jpg)
+
+
+
+![alt text][logo]
+
+[logo]: IMG_20180101_134539.jpg "logo"
+
+
+<img src="IMG_20180101_134539.jpg" width="100" height="80"/>
+
+
